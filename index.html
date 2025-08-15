@@ -4,8 +4,142 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scool101</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/all.min.css">
 </head>
 <body>
+    <header class="header">
+        <nav> 
+            <a href="index.html"><img src="img/logo.png"></a>
+            <div class="nav-links">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul class="">
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>University website 101</h1>
+            <p>This is a website for a schoool/University Desciption<br>
+                it hsould have soma data about the course/facility and how to contact it
+            </p>
+            <a href=""> Visit Us to know More</a>
+        </div> 
+    </header>
+    <section class="course">
+        <h1> Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, eum!</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora velit quibusdam incidunt dolores illum aut id voluptas soluta corrupti iusto vero, reprehenderit laborum quo saepe esse quis ipsa suscipit voluptatibus!</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora velit quibusdam incidunt dolores illum aut id voluptas soluta corrupti iusto vero, reprehenderit laborum quo saepe esse quis ipsa suscipit voluptatibus!</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora velit quibusdam incidunt dolores illum aut id voluptas soluta corrupti iusto vero, reprehenderit laborum quo saepe esse quis ipsa suscipit voluptatibus!</p>
+            </div>
+        </div>
+    </section>
+    <section class="campus">
+        <h1> Our compuses</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, eum!</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="img/london.png">
+                <div class="layer">
+                    <h3>London</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="img/newyork.png">
+                <div class="layer">
+                    <h3>New York</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="img/washington.png">
+                <div class="layer">
+                    <h3>Washington</h3>
+                </div>
+            </div>
+        </div>
     
+    </section>
+
+    <section class="facilities">
+        <h1> facilities </h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, eum!</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="img/library.png">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum quibusdam, quas autem tempora mollitia praesentium.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="img/basketball.png">
+                <h3>Largest Playground</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum quibusdam, quas autem tempora mollitia praesentium.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="img/cafeteria.png">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum quibusdam, quas autem tempora mollitia praesentium.</p>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials">
+        <h1> What Our Students Says </h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, eum!</p>
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="img/user1.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, minima eveniet! Reprehenderit earum vitae ratione, sit molestias dolorem aliquid aut!</p>
+                    <h3>Christine Berkley</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-jelly fa-regular fa-star"></i>
+                </div>
+            </div>
+                <div class="testimonials-col">
+                <img src="img/user2.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, minima eveniet! Reprehenderit earum vitae ratione, sit molestias dolorem aliquid aut!</p>
+                    <h3>David Byer</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cta">
+        <h1>Enroll for our various online courses Anywhere from the world>
+        <a href="">CONTACT US </a>
+    </section>
+    <script>
+    let nav_bar = document.querySelector('.nav-links');
+        function hideMenu(){
+            nav_bar.style.right = "-200px"
+        }
+        function showMenu(){
+            nav_bar.style.right = "0"
+        }
+    </script>
 </body>
 </html>
