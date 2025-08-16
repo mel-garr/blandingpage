@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School101</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/all.min.css">
+</head>
+<body>
+    <header class="sub-header">
+        <nav> 
+            <a href="index.html"><img src="img/logo.png"></a>
+            <div class="nav-links">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul class="">
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Cerificate & Online Programs For 2025</h1>
+    </header>
+
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae voluptatem nihil vero? Voluptates id possimus beatae repellendus, atque, similique deserunt corrupti deleniti praesentium saepe accusantium cumque quasi. Debitis, consectetur minus!</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+    </section>
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="img/certificate.jpg" alt="">
+                <h2>Our Cerificate & Online Programs For 2025</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis enim beatae corrupti nobis pariatur qui quod facilis laudantium. Debitis, vel!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam facilis modi minima sunt aliquam dolor, eligendi vero commodi consequatur iusto beatae enim soluta quas cumque id. Molestiae debitis labore quam.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam facilis modi minima sunt aliquam dolor, eligendi vero commodi consequatur iusto beatae enim soluta quas cumque id. Molestiae debitis labore quam.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam facilis modi minima sunt aliquam dolor, eligendi vero commodi consequatur iusto beatae enim soluta quas cumque id. Molestiae debitis labore quam.</p>
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form action="" class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea name="" id="" rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Buisness Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data schience</span>
+                    <span>41</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>11</span>
+                </div>
+                        <div>
+                    <span>Computer Science</span>
+                    <span>61</span>
+                </div>
+                <div>
+                    <span>Web Dev</span>
+                    <span>13</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+    let nav_bar = document.querySelector('.nav-links');
+        function hideMenu(){
+            nav_bar.style.right = "-200px"
+        }
+        function showMenu(){
+            nav_bar.style.right = "0"
+        }
+    </script>
+</body>
+</html>
